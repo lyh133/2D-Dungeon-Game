@@ -5,7 +5,7 @@ UI front-end built with JavaFX:
 
 
 
-
+[![Watch the video](https://i.imgur.com/460o6E5.jpg)]
 
 [![Watch the video](https://i.imgur.com/0TRg0Ez.png)]
 
