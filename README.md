@@ -1,70 +1,3 @@
-# Project
-
-## Aims
-
-* Appreciate issues in user interface design
-
-* Learn practical aspects of graphical user interface programming
-
-* Learn more about the Java class libraries
-
-* Learn the application of design patterns.
-
-## Due Dates
-
-Milestone 1: 9AM Tuesday Week 7 (Demonstration: Week 7 Lab)
-
-Milestone 2: 9AM Monday Week 8 (Demonstration: Week 8 Lab)
-
-Final milestone: 9AM Monday Week 10 (Demonstration: Week 10 Lab)
-
-**NOTE:** There is **NO** provision for late submissions with a late penalty. Not submitting by the deadline is considered non-submission.
-
-## Value: 35 marks
-
----
-
-## Overview
-
-You have received a request from a client for an application for the playing of dungeon-style puzzles. With a partner from your lab class, you will follow an agile development process to design and implement a desktop Java application that satisfies the requirements of the client (see below). The final piece of software you deliver is expected to be of professional quality, user-friendly, and demonstrate the knowledge and skills you have acquired in this course.
-
-## Partner
-
-You should by now have a partner and group set-up on webcms3, after following the week-03 lab instructions. Your repositories will be created from these webcms3 groups.
-
-If you do not have a webcms3 project group yet, you will be randomly assigned to a group.
-
-Only groups of 2 are allowed by default. Groups of 1 are never allowed without special consideration, since this violates course learning outcomes requiring teamwork.
-
-Once created, your group Gitlab repository will be available here (replace *GROUP_NAME* with your group's name):
-
-https://gitlab.cse.unsw.edu.au/COMP2511/20T2/GROUP_NAME
-
-## Project setup
-
-**NOTE**: For the first milestone, it is not necessary to set up the project in VSCode.
-
-Because this project uses JavaFX, to use it on a non-CSE computer, additional setup will be needed.
-
-The repository provided has already been setup to run the starter-game, and tested on a CSE machine (using VLAB). To play the starter game, clone the repository onto your CSE machine on VLAB, open the root directory of the repository in VSCode, and click the *"Run"* link above the *main* method of **DungeonApplication.java**
-
-Note that this works because *lib/symlink_javafx* is a symbolic link to a copy of JavaFX in the cs2511 class account. To make this work on a non-CSE computer, you will need to delete the *symlink_javafx* symbolic link, then download and unzip the latest version of the JavaFX JDK for Java 11 for your Operating System (taking into account if you have a 64 or 32 bit machine), and transfer the contents of the *lib* folder inside the JDK download into the *lib* folder on your cloned repository. You will also need to change the *launch.json* file to refer to **"./lib"** instead of **./lib/symlink_javafx** in the *"vmArgs"* configuration (note these modifications were tested on Windows 10).
-
-You may also need to copy the contents of the *bin* folder in the unzipped JavaFX JDK download into a *bin* folder under the root directory of your cloned repository (e.g. for Windows).
-
-The following version of the JavaFX JDK is recommended if you choose to run it on your computer, since it is the same version as on the CSE machine:
-
-https://gluonhq.com/products/javafx/
-
-Note that if you deviate from this precise directory structure, you may need to modify the VSCode configuration in *.vscode/launch.json* to be able to run the game in VSCode.
-
-If the steps in the above instructions worked, you should be able to run the starter code.
-
-**IMPORTANT**: Please do not push the contents of the *lib* or *bin* folders to your Gitlab repository. This is very likely to push you over the memory limits for the milestone 2 and 3 submissions.
-
-## Preliminary client requirements
-
-The client desires an application that lets the user move a player around a dungeon and try to overcome various challenges in order to "complete" the dungeon by reaching some goal. The simplest form of such a puzzle is a maze, where the player must find their way from the starting point to the exit.
 
 ![Maze][maze]
 
@@ -378,24 +311,6 @@ Marks will be deducted for poor git and GitLab usage. For example, meaningless c
 [boulders]:      examples/boulders.png
 [advanced]:      examples/advanced.png
 
-## Logs of work completed per partner
 
-### Week-05
-
-Fill in here.
-
-### Week-06
-
-Fill in here.
-
-### Week-07
-
-Fill in here.
-
-### Week-08
-
-Fill in here.
-
-### Week-09
 
 Fill in here.
