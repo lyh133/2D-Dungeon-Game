@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#handleKeyPress" prefHeight="525.0" prefWidth="561.0" xmlns="http://javafx.com/javafx/11.0.4" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <GridPane fx:id="background">
+         <columnConstraints>
+            <ColumnConstraints />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints />
+         </rowConstraints>
+      </GridPane>
+      <Pane fx:id="foreground" prefHeight="600.0" prefWidth="550.0">
+         <children>
+            <ImageView fitHeight="85.0" fitWidth="580.0" layoutX="0.0" layoutY="515.0">
+               <image>
+                  <Image url="@../../../../images/itembar.jpg" />
+               </image>
+            </ImageView>
+            <ImageView id="setting" fitHeight="58.0" fitWidth="65.0" layoutX="489.0" layoutY="529.0" onMouseClicked="#handleSetting">
+               <image>
+                  <Image url="@../../../../images/setting.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="treasureCount" layoutX="324.0" layoutY="563.0" text="0" textFill="RED" />
+            <ImageView layoutX="290.0" layoutY="542.0">
+               <image>
+                  <Image url="@../../../../images/gold_pile.png" />
+               </image>
+            </ImageView>
+            <ImageView layoutX="355.0" layoutY="542.0">
+               <image>
+                  <Image url="@../../../../images/greatsword_1_new.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="durability" layoutX="383.0" layoutY="563.0" text="0" textFill="#e10909" />
+            <ImageView layoutX="109.0" layoutY="542.0">
+               <image>
+                  <Image url="@../../../../images/brilliant_blue_new.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="potionCount" layoutX="137.0" layoutY="566.0" text="0" textFill="RED" />
+            <ImageView layoutX="399.0" layoutY="544.0">
+               <image>
+                  <Image url="@../../../../images/bow.png" />
+               </image>
+            </ImageView>
+            <ImageView layoutX="161.0" layoutY="543.0">
+               <image>
+                  <Image url="@../../../../images/arrowright.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="arrowCount" layoutX="178.0" layoutY="566.0" text="0" textFill="#da0b0b" />
+            <ImageView layoutX="202.0" layoutY="543.0">
+               <image>
+                  <Image url="@../../../../images/bomb.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="key" layoutX="245.0" layoutY="536.0">
+               <image>
+                  <Image url="@../../../../images/block.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</StackPane>

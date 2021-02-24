@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.4" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="570" fitWidth="600" layoutX="-14.0" layoutY="14.0">
+         <image>
+            <Image url="@../../../../images/victory.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="87.0" fitWidth="193.0" layoutX="63.0" layoutY="485.0" onMouseClicked="#handlevMenu">
+         <image>
+            <Image url="@../../../../images/menu2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="87.0" fitWidth="245.0" layoutX="300.0" layoutY="485.0">
+         <image>
+            <Image url="@../../../../images/next.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

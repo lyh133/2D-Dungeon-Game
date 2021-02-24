@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/json.jar"/>
+	<classpathentry kind="lib" path="lib/symlink_javafx/javafx-swt.jar"/>
+	<classpathentry kind="lib" path="lib/symlink_javafx/javafx.base.jar"/>
+	<classpathentry kind="lib" path="lib/symlink_javafx/javafx.controls.jar"/>
+	<classpathentry kind="lib" path="lib/symlink_javafx/javafx.fxml.jar"/>
+	<classpathentry kind="lib" path="lib/symlink_javafx/javafx.graphics.jar"/>
+	<classpathentry kind="lib" path="lib/symlink_javafx/javafx.media.jar"/>
+	<classpathentry kind="lib" path="lib/symlink_javafx/javafx.swing.jar"/>
+	<classpathentry kind="lib" path="lib/symlink_javafx/javafx.web.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

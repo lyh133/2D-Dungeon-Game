@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.4" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="900.0">
+         <image>
+            <Image url="@../../../../images/dungeonwarriors.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="200.0" layoutX="479.0" layoutY="349.0" onMouseClicked="#handleStart">
+         <image>
+            <Image url="@../../../../images/play.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="43.0" fitWidth="200.0" layoutX="479.0" layoutY="467.0" onMouseClicked="#handleExit">
+         <image>
+            <Image url="@../../../../images/exit.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="51.0" fitWidth="200.0" layoutX="479.0" layoutY="407.0" onMouseClicked="#handleExplain">
+         <image>
+            <Image url="@../../../../images/help.jpg" />
+         </image>
+      </ImageView>   
+   </children>
+</Pane>
