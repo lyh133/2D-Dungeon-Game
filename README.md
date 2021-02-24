@@ -1,9 +1,9 @@
 2d-Dungeon-Game written in Java with fellow UNSW student.
-front-end built with JavaFX
-[![Watch the video](https://i.imgur.com/QC6VOp5.png)]
+
 ran and tested in Linux environment.
-UI:
-[img]https://i.imgur.com/0TRg0Ez.png[/img]
+UI front-end built with JavaFX:
+[![Watch the video](https://i.imgur.com/0TRg0Ez.png)]
+
 
 ![Maze][maze]
 
