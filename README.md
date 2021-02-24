@@ -1,3 +1,9 @@
+2d-Dungeon-Game written in Java with fellow UNSW student.
+front-end built with JavaFX
+
+ran and tested in Linux environment.
+
+
 
 ![Maze][maze]
 
@@ -89,30 +95,3 @@ Note that the same basic goal *can* appear more than once in a statement.
 
 You can extend this format to include additional information if you wish, but your application should still work with files in the original format.
 
-### User interface
-
-The UI component of this project will be implemented in JavaFX. The starter code contains a very basic UI showing how a player can be moved around with the arrow keys, but it is missing many features (the player can walk through walls for one).
-
-
-
-[player]:        images/human_new.png
-[wall]:          images/brick_brown_0.png
-[exit]:          images/exit.png
-[door_open]:     images/open_door.png
-[door_closed]:   images/closed_door.png
-[key]:           images/key.png
-[boulder]:       images/boulder.png
-[switch]:        images/pressure_plate.png
-[portal]:        images/portal.png
-[enemy]:         images/deep_elf_master_archer.png
-[sword]:         images/greatsword_1_new.png
-[invincibility]: images/brilliant_blue_new.png
-[treasure]:      images/gold_pile.png
-
-[maze]:          examples/maze.png
-[boulders]:      examples/boulders.png
-[advanced]:      examples/advanced.png
-
-
-
-Fill in here.
