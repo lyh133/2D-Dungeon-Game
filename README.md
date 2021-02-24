@@ -3,7 +3,7 @@ front-end built with JavaFX
 
 ran and tested in Linux environment.
 UI:
-[Imgur]([img]https://i.imgur.com/0TRg0Ez.png[/img])
+[Imgur](https://i.imgur.com/0TRg0Ez.png)
 
 ![Maze][maze]
 
