@@ -2,6 +2,11 @@
 
 ran and tested in Linux environment.
 UI front-end built with JavaFX:
+
+
+
+
+
 [![Watch the video](https://i.imgur.com/0TRg0Ez.png)]
 
 
