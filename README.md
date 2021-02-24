@@ -91,7 +91,20 @@ In the case of a more complex goal, *goal* is the logical operator and the addit
 }
 ```
 
-Note that the same basic goal *can* appear more than once in a statement.
+[player]:        images/human_new.png
+[wall]:          images/brick_brown_0.png
+[exit]:          images/exit.png
+[door_open]:     images/open_door.png
+[door_closed]:   images/closed_door.png
+[key]:           images/key.png
+[boulder]:       images/boulder.png
+[switch]:        images/pressure_plate.png
+[portal]:        images/portal.png
+[enemy]:         images/deep_elf_master_archer.png
+[sword]:         images/greatsword_1_new.png
+[invincibility]: images/brilliant_blue_new.png
+[treasure]:      images/gold_pile.png
 
-You can extend this format to include additional information if you wish, but your application should still work with files in the original format.
-
+[maze]:          examples/maze.png
+[boulders]:      examples/boulders.png
+[advanced]:      examples/advanced.png
